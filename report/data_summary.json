@@ -1,0 +1,11 @@
+{
+  "threads": 5000,
+  "exchanges": 7863,
+  "brand_counts": {
+    "AmazonHelp": 7863
+  },
+  "unique_exchange_ids": 7863,
+  "empty_customer_texts": 0,
+  "empty_support_texts": 0,
+  "malformed_exchange_rows": 0
+}
