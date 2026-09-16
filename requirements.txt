@@ -1,0 +1,8 @@
+pandas
+pyarrow
+scikit-learn
+scipy
+langdetect
+anthropic
+certifi
+groq

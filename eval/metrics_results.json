@@ -1,0 +1,226 @@
+{
+  "classifiers": {
+    "trivial": {
+      "macro_f1": 0.04597701149425287,
+      "accuracy": 0.2608695652173913,
+      "report": {
+        "account_access_or_security": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 4.0
+        },
+        "billing_or_payment": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "damaged_or_wrong_item": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 4.0
+        },
+        "delivery_delay": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 4.0
+        },
+        "delivery_not_received_marked_delivered": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 4.0
+        },
+        "positive_or_resolved": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 3.0
+        },
+        "product_or_service_inquiry": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "refund_or_return": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "service_complaint_generic": {
+          "precision": 0.2608695652173913,
+          "recall": 1.0,
+          "f1-score": 0.41379310344827586,
+          "support": 12.0
+        },
+        "accuracy": 0.2608695652173913,
+        "macro avg": {
+          "precision": 0.028985507246376812,
+          "recall": 0.1111111111111111,
+          "f1-score": 0.04597701149425287,
+          "support": 46.0
+        },
+        "weighted avg": {
+          "precision": 0.06805293005671077,
+          "recall": 0.2608695652173913,
+          "f1-score": 0.10794602698650675,
+          "support": 46.0
+        }
+      }
+    },
+    "simple": {
+      "macro_f1": 0.7160308177852037,
+      "accuracy": 0.6956521739130435,
+      "report": {
+        "account_access_or_security": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1-score": 0.8888888888888888,
+          "support": 4.0
+        },
+        "billing_or_payment": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1-score": 0.8888888888888888,
+          "support": 5.0
+        },
+        "damaged_or_wrong_item": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "delivery_delay": {
+          "precision": 0.4,
+          "recall": 0.5,
+          "f1-score": 0.4444444444444444,
+          "support": 4.0
+        },
+        "delivery_not_received_marked_delivered": {
+          "precision": 0.3333333333333333,
+          "recall": 0.5,
+          "f1-score": 0.4,
+          "support": 4.0
+        },
+        "positive_or_resolved": {
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1-score": 0.8571428571428571,
+          "support": 3.0
+        },
+        "product_or_service_inquiry": {
+          "precision": 0.5714285714285714,
+          "recall": 0.8,
+          "f1-score": 0.6666666666666666,
+          "support": 5.0
+        },
+        "refund_or_return": {
+          "precision": 0.75,
+          "recall": 0.6,
+          "f1-score": 0.6666666666666666,
+          "support": 5.0
+        },
+        "service_complaint_generic": {
+          "precision": 0.8571428571428571,
+          "recall": 0.5,
+          "f1-score": 0.631578947368421,
+          "support": 12.0
+        },
+        "accuracy": 0.6956521739130435,
+        "macro avg": {
+          "precision": 0.717989417989418,
+          "recall": 0.7444444444444444,
+          "f1-score": 0.7160308177852037,
+          "support": 46.0
+        },
+        "weighted avg": {
+          "precision": 0.745134575569358,
+          "recall": 0.6956521739130435,
+          "f1-score": 0.6998873996585667,
+          "support": 46.0
+        }
+      }
+    },
+    "llm": {
+      "macro_f1": 0.7407728074394742,
+      "accuracy": 0.7391304347826086,
+      "report": {
+        "account_access_or_security": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1-score": 0.8888888888888888,
+          "support": 4.0
+        },
+        "billing_or_payment": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1-score": 0.8888888888888888,
+          "support": 5.0
+        },
+        "damaged_or_wrong_item": {
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1-score": 0.8571428571428571,
+          "support": 4.0
+        },
+        "delivery_delay": {
+          "precision": 0.5,
+          "recall": 0.75,
+          "f1-score": 0.6,
+          "support": 4.0
+        },
+        "delivery_not_received_marked_delivered": {
+          "precision": 0.6666666666666666,
+          "recall": 0.5,
+          "f1-score": 0.5714285714285714,
+          "support": 4.0
+        },
+        "positive_or_resolved": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1-score": 0.6666666666666666,
+          "support": 3.0
+        },
+        "product_or_service_inquiry": {
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1-score": 0.8,
+          "support": 5.0
+        },
+        "refund_or_return": {
+          "precision": 0.75,
+          "recall": 0.6,
+          "f1-score": 0.6666666666666666,
+          "support": 5.0
+        },
+        "service_complaint_generic": {
+          "precision": 0.8,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.7272727272727273,
+          "support": 12.0
+        },
+        "accuracy": 0.7391304347826086,
+        "macro avg": {
+          "precision": 0.7574074074074074,
+          "recall": 0.762962962962963,
+          "f1-score": 0.7407728074394742,
+          "support": 46.0
+        },
+        "weighted avg": {
+          "precision": 0.7764492753623189,
+          "recall": 0.7391304347826086,
+          "f1-score": 0.7429324298889517,
+          "support": 46.0
+        }
+      }
+    }
+  },
+  "routing": {
+    "accuracy": 0.717391304347826
+  }
+}
