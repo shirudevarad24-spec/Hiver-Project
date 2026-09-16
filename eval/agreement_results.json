@@ -1,0 +1,22 @@
+{
+  "grounded": {
+    "pearson_r": 0.9897538280618564,
+    "exact_match_rate": 0.6,
+    "n": 10
+  },
+  "correct": {
+    "pearson_r": 0.9079593845004515,
+    "exact_match_rate": 0.7,
+    "n": 10
+  },
+  "tone": {
+    "pearson_r": 0.8749999999999998,
+    "exact_match_rate": 0.8,
+    "n": 10
+  },
+  "actionable": {
+    "pearson_r": 0.9225040231868102,
+    "exact_match_rate": 0.8,
+    "n": 10
+  }
+}
